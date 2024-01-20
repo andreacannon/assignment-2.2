@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set its value to 'Dane'. The checks if name is exactly equal to 'Mary'. 
+// If statement is true, it'll log 'Hi, Mary!' on the console, if not it'll log 'How do you do?'
+// Since name is not exactly equal to 'Mary', the console will log'How do you do?'
 
 //CODE
 /*
@@ -45,10 +44,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make two variable; the first variable is named secret with is value undefined. The second variable isnamed code 
+// with its value set at 123. We then check if the value of code is equal to 123, it is so, the value of secret gets updated
+// to 'super' and  the value of code is multipled by two to make 246. Next, we check if the updated value of code is 
+//greater than 250 which is false so we will not update the value of secret to 'duper'. The console.log displays 'super'
 
 //CODE
 /*
@@ -70,10 +69,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make three variables declared: isStudent (value set to true), age (value set to 34), and zip (value set to 55407).
+//The first statement checks if isStudent is true & if zip is greater than 80000. If both are true, it logs "You're a  
+// student on the West Coast!" to the console. If not true, it checks if isStudent is false or if age is less than 30.
+// If either is true, it logs "What are your hobbies?" to the console. If the first nor the second conditions are met,
+// the next statement checks if isStudent is true. If this condition is true, it logs the message "Welcome to Prime!" 
+// to the console. Since isStudent is true and zip is not greater than 80000, it’ll log "Welcome to Prime!" to the console.
 
 //CODE
 /*
