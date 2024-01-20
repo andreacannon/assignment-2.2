@@ -132,11 +132,14 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+// FIX: per instrucions colorOne = 'blue'
 let colorTwo = 'blue';
+// FIX: per instrucions colorTwo = 'red'
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX: per instrucions include colorTwo = 'purple'
 }
 */
 
@@ -149,6 +152,7 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+  // FIX: per instrucions replace || with &&
   console.log('throw away the food!');
 }
 */
@@ -162,6 +166,7 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  // FIX: per instrucions replace <= with >=
   console.log('no entry');
 } else {
   console.log('enter');
